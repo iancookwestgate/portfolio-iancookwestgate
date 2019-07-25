@@ -8,6 +8,8 @@ function Navbar(){
       <div id="internal-menu">
         <Link to="/"><p>Home</p></Link>
         <Link to="/"><p>About</p></Link>
+        <Link to="/"><p>Services</p></Link>
+        <Link to="/"><p>Contact</p></Link>
       </div>
     </div>
   );

@@ -16,15 +16,30 @@ p {
   top: 0px;
   bottom: 0px;
   left: 0px;
-  background-color: #041230;
   z-index: 100;
   transition: all .3s ease;
-  #internal-menu {
-    width: 100%;
-    height: auto;
-    clear: both;
-    float: left;
-    padding: 0px 20px 0px 60px;
-    box-sizing: border-box;
-  }
+}
+
+#internal-menu {
+  width: 100%;
+  height: auto;
+  clear: both;
+  float: left;
+  padding: 0px 20px 0px 60px;
+  box-sizing: border-box;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.8;
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 0.5px;
+}
+
+#internal-menu p {
+  color: #ffffff;
+  padding-bottom: 19px;
+}
+
+#internal-menu a {
+  text-decoration: none;
 }
