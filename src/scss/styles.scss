@@ -46,24 +46,24 @@ p {
 // Home SCSS
 
 #home {
-  padding-left: 300px;
+  margin-left: 300px;
   width: 100%;
   height: auto;
 }
 
 #top-section {
-  .image-wrap {
-    width: 200px;
-    height: 200px;
-    display: inline-block;
-  }
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  z-index: 2;
+  text-align: center;
   img {
     border-radius: 100%;
     border: 8px solid rgba(255,255,255,.5);
     vertical-align: middle;
+    max-width: 200px;
   }
 }
-
 
 // Flip on Hover
 
