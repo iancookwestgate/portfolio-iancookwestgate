@@ -5,8 +5,10 @@ import '../scss/styles.scss';
 function Navbar(){
   return (
     <div className="bg-nvy navbar">
-      <Link to="/"><p>Home</p></Link>
-      <Link to="/"><p>About</p></Link>
+      <div id="internal-menu">
+        <Link to="/"><p>Home</p></Link>
+        <Link to="/"><p>About</p></Link>
+      </div>
     </div>
   );
 }

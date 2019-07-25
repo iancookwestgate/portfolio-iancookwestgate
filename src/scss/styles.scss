@@ -5,3 +5,26 @@
 // Global SCSS
 body {
 }
+
+p {
+  margin: 0;
+}
+
+.navbar {
+  position: fixed;
+  width: 300px;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  background-color: #041230;
+  z-index: 100;
+  transition: all .3s ease;
+  #internal-menu {
+    width: 100%;
+    height: auto;
+    clear: both;
+    float: left;
+    padding: 0px 20px 0px 60px;
+    box-sizing: border-box;
+  }
+}

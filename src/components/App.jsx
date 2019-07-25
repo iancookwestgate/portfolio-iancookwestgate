@@ -15,11 +15,11 @@ class App extends React.Component {
   render() {
     return (
       <div>
+        <Navbar/>
         <Switch>
           <Route exact path='/' component={Home} />
           <Route component={Error404}/>
         </Switch>
-        <Navbar/>
       </div>
     );
   }
