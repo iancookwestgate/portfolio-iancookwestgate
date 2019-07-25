@@ -10,6 +10,7 @@ p {
   margin: 0;
 }
 
+// Navbar SCSS
 .navbar {
   position: fixed;
   width: 300px;
@@ -28,11 +29,12 @@ p {
   padding: 0px 20px 0px 60px;
   box-sizing: border-box;
   text-transform: uppercase;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 500;
   line-height: 1.8;
   font-family: 'Poppins', sans-serif;
   letter-spacing: 0.5px;
+  margin-top: 40px;
 }
 
 #internal-menu p {
@@ -42,4 +44,42 @@ p {
 
 #internal-menu a {
   text-decoration: none;
+}
+
+// Flip on Hover
+
+.flippy-flop {
+	-webkit-animation: flippy-flop 0.5s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+	animation: flippy-flop 0.5s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+  transition: all .5s ease;
+}
+
+@-webkit-keyframes flippy-flop {
+  0% {
+    -webkit-transform: translateY(0) rotateX(0);
+            transform: translateY(0) rotateX(0);
+    -webkit-transform-origin: 50% 0%;
+            transform-origin: 50% 0%;
+  }
+  100% {
+    -webkit-transform: translateY(-100%) rotateX(-180deg);
+            transform: translateY(-100%) rotateX(-180deg);
+    -webkit-transform-origin: 50% 100%;
+            transform-origin: 50% 100%;
+  }
+}
+
+@keyframes flippy-flop {
+  0% {
+    -webkit-transform: translateY(0) rotateX(0);
+            transform: translateY(0) rotateX(0);
+    -webkit-transform-origin: 50% 0%;
+            transform-origin: 50% 0%;
+  }
+  100% {
+    -webkit-transform: translateY(-100%) rotateX(-180deg);
+            transform: translateY(-100%) rotateX(-180deg);
+    -webkit-transform-origin: 50% 100%;
+            transform-origin: 50% 100%;
+  }
 }
