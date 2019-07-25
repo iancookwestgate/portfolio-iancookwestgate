@@ -3,9 +3,6 @@
 @import 'mixins.scss';
 
 // Global SCSS
-body {
-}
-
 p {
   margin: 0;
 }
@@ -46,9 +43,31 @@ p {
   text-decoration: none;
 }
 
+// Home SCSS
+
+#home {
+  padding-left: 300px;
+  width: 100%;
+  height: auto;
+}
+
+#top-section {
+  .image-wrap {
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+  }
+  img {
+    border-radius: 100%;
+    border: 8px solid rgba(255,255,255,.5);
+    vertical-align: middle;
+  }
+}
+
+
 // Flip on Hover
 
-.flippy-flop {
+.flippy-flop:hover {
 	-webkit-animation: flippy-flop 0.5s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
 	animation: flippy-flop 0.5s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
   transition: all .5s ease;

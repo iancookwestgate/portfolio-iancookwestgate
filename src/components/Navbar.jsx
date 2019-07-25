@@ -6,10 +6,10 @@ function Navbar(){
   return (
     <div className="bg-nvy navbar">
       <div id="internal-menu">
-        <Link to="/" class="flippy-flop"><p>Home</p></Link>
-        <Link to="/" class="flippy-flop"><p>About</p></Link>
-        <Link to="/" class="flippy-flop"><p>Services</p></Link>
-        <Link to="/" class="flippy-flop"><p>Contact</p></Link>
+        <Link to="/"><p class="flippy-flop">Home</p></Link>
+        <Link to="/"><p class="flippy-flop">About</p></Link>
+        <Link to="/"><p class="flippy-flop">Services</p></Link>
+        <Link to="/"><p class="flippy-flop">Contact</p></Link>
       </div>
     </div>
   );
