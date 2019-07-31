@@ -37,10 +37,34 @@ p {
 #internal-menu p {
   color: #ffffff;
   padding-bottom: 19px;
+  opacity: 0.8;
+  transition: 0.5s;
 }
 
 #internal-menu a {
   text-decoration: none;
+}
+
+.nav-resize {
+  position: absolute;
+  right: 0px;
+  bottom: 20%;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  background-color: #E3872D;
+  display: inline-block;
+  text-decoration: none;
+  transition: all .3s ease;
+}
+
+.angle-left {
+  color: white;
+  transform: rotate(0deg);
+  position: absolute;
+  left: 6px;
+  transition: all .3s ease;
 }
 
 // Home SCSS

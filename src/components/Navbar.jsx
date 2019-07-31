@@ -11,6 +11,9 @@ function Navbar(){
         <Link to="/"><p class="flippy-flop">Services</p></Link>
         <Link to="/"><p class="flippy-flop">Contact</p></Link>
       </div>
+      <a class="nav-resize">
+        <i class="angle-left">hello</i>
+      </a>
     </div>
   );
 }
