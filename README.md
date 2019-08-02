@@ -12,9 +12,9 @@ To be added soon.
 
 ## Site Features
 
-*
-*
-*
+* Information about myself, Ian Cook Westgate, for potential employers to view at their leisure.
+* Access to my CV and GitHub projects.
+* Contact information.
 
 ## Planned Features
 
@@ -36,7 +36,7 @@ To be added soon.
 
 ## Known Bugs
 
-* 
+*
 
 ## Support and contact details
 
