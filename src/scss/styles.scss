@@ -71,58 +71,77 @@ p {
 
 #home {
   margin-left: 300px;
-  width: 100%;
   height: auto;
 }
 
 #top-section {
+  width: 100%;
+  height: auto;
+  clear: both;
+  float: left;
+  background-image: url("../assets/images/scottish-mountain.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#header-wrap {
+  width: 100%;
+  height: auto;
+  clear: both;
+  float: left;
+  margin-bottom: 100px;
+  box-sizing: border-box;
+}
+
+#box-wrap {
+  width: 100%;
+  height: auto;
+  clear: both;
+  float: left;
+  position: relative;
+  box-sizing: border-box;
+}
+
+#bg-wrap {
   position: absolute;
-  top: 25%;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  z-index: 10;
+}
+
+#content {
+  height: 100vh;
+  width: 100%;
+  clear: both;
+  float: left;
+  position: relative;
+  z-index: 25;
+  box-sizing: border-box;
+}
+
+#inner-content {
+  position: absolute;
+  top: 50%;
   left: 50%;
+  transform: translate(-50%,-50%);
   z-index: 2;
   text-align: center;
+  width: 100%;
+  padding: 0px 20px;
+  box-sizing: border-box;
+}
+
+#image-wrap {
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+  margin-bottom: 38px;
   img {
     border-radius: 100%;
     border: 8px solid rgba(255,255,255,.5);
     vertical-align: middle;
     max-width: 200px;
-  }
-}
-
-// Flip on Hover
-
-.flippy-flop:hover {
-	-webkit-animation: flippy-flop 0.5s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
-	animation: flippy-flop 0.5s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
-  transition: all .5s ease;
-}
-
-@-webkit-keyframes flippy-flop {
-  0% {
-    -webkit-transform: translateY(0) rotateX(0);
-            transform: translateY(0) rotateX(0);
-    -webkit-transform-origin: 50% 0%;
-            transform-origin: 50% 0%;
-  }
-  100% {
-    -webkit-transform: translateY(-100%) rotateX(-180deg);
-            transform: translateY(-100%) rotateX(-180deg);
-    -webkit-transform-origin: 50% 100%;
-            transform-origin: 50% 100%;
-  }
-}
-
-@keyframes flippy-flop {
-  0% {
-    -webkit-transform: translateY(0) rotateX(0);
-            transform: translateY(0) rotateX(0);
-    -webkit-transform-origin: 50% 0%;
-            transform-origin: 50% 0%;
-  }
-  100% {
-    -webkit-transform: translateY(-100%) rotateX(-180deg);
-            transform: translateY(-100%) rotateX(-180deg);
-    -webkit-transform-origin: 50% 100%;
-            transform-origin: 50% 100%;
   }
 }

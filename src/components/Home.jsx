@@ -14,11 +14,23 @@ class Home extends React.Component {
     return (
       <div id="home">
         <div id="top-section">
-          <div class="image-wrap">
-            <img src={profile} alt="A picture of Ian Cook Westgate"></img>
+          <div id="header-wrap">
+            <div id="box-wrap">
+              <div id="bg-wrap">
+              </div>
+              <div id="content">
+                <div id="inner-content">
+                  <div id="image-wrap">
+                    <img src={profile} alt="A picture of Ian Cook Westgate"></img>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-
+        <div id="about-me">
+          <h1>About Me</h1>
+        </div>
       </div>
     );
   }
