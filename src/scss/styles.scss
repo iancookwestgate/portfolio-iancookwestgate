@@ -3,6 +3,10 @@
 @import 'mixins.scss';
 
 // Global SCSS
+html {
+
+}
+
 p {
   margin: 0;
 }
@@ -79,9 +83,7 @@ p {
   height: auto;
   clear: both;
   float: left;
-  background-image: url("../assets/images/scottish-mountain.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
+
 }
 
 #header-wrap {
@@ -89,7 +91,7 @@ p {
   height: auto;
   clear: both;
   float: left;
-  margin-bottom: 100px;
+  margin-bottom: 30px;
   box-sizing: border-box;
 }
 
@@ -109,6 +111,11 @@ p {
   left: 0px;
   right: 0px;
   z-index: 10;
+  background-image: url("../assets/images/scottish-mountain.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  filter: blur(1.5px) grayscale(20%);
 }
 
 #content {
@@ -138,10 +145,37 @@ p {
   height: 200px;
   display: inline-block;
   margin-bottom: 38px;
+  z-index: 1;
   img {
     border-radius: 100%;
     border: 8px solid rgba(255,255,255,.5);
     vertical-align: middle;
     max-width: 200px;
+  }
+}
+
+// About Section
+
+#about-me {
+  width: 100%;
+  height: auto;
+  clear: both;
+  float: left;
+  text-align: center;
+  h1 {
+    margin: 10px;
+    margin-bottom: 30px;
+  }
+}
+
+#about-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  img {
+    max-width: 300px;
+  }
+  p {
+    max-width: 400px;
   }
 }
