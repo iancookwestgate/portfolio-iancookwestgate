@@ -4,6 +4,8 @@
 
 ## Description
 
+This is the portfolio for Ian Cook Westgate. This site was designed to illustrate Ian's web developer and designer skills, his portfolio pieces, and information on how to contact him. 
+
 ## Component Structure
 
 To be added soon.
