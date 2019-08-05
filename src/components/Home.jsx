@@ -39,6 +39,20 @@ class Home extends React.Component {
             <img src={aboutPic}></img>
           </div>
         </div>
+        <div id="portfolio-wrap">
+          <div id="portfolio">
+            <h1>Portfolio Pieces</h1>
+            <span>Take a look at my work below.</span>
+          </div>
+          <div id="portfolio-list">
+            <ul>
+              <li>
+                <div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
     );
   }

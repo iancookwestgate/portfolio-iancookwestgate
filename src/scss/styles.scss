@@ -157,6 +157,7 @@ p {
 // About Section
 
 #about-me {
+  margin-bottom: 100px;
   width: 100%;
   height: auto;
   clear: both;
@@ -165,6 +166,13 @@ p {
   h1 {
     margin: 10px;
     margin-bottom: 30px;
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: -5px;
+    padding-left: 25px;
+    line-height: 1;
+    font-family: "Montserrat";
   }
 }
 
@@ -194,5 +202,41 @@ p {
     position: relative;
     overflow: hidden;
     border: none;
+  }
+}
+
+// Portfolio Section
+
+#portfolio-wrap {
+  height: auto;
+  width: 100%;
+  clear: both;
+  float: left;
+  padding-top: 100px;
+  padding-bottom: 70px;
+  background-color: #f6f7fd;
+  margin-bottom: 100px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+#portfolio {
+  clear: both;
+  padding-bottom: 100px;
+  position: relative;
+  box-sizing: border-box;
+  h1 {
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: -5px;
+    padding-left: 25px;
+    line-height: 1;
+    font-family: "Montserrat";
+  }
+  span {
+    font-size: 16px;
+    font-family: "Montserrat";
+    padding-left: 25px;
   }
 }
