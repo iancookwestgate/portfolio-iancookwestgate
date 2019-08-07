@@ -47,7 +47,11 @@ class Home extends React.Component {
           <div id="portfolio-list">
             <ul>
               <li>
-                <div>
+                <div class="inner-list">
+                  <div class="image-wrap">
+                  </div>
+                  <div class="definitions-wrap">
+                  </div>
                 </div>
               </li>
             </ul>
