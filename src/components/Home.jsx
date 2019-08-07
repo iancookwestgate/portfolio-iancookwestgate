@@ -2,6 +2,9 @@ import React from 'react';
 import '../scss/styles.scss';
 import aboutPic from '../assets/images/Ian-Pic.jpg';
 import profile from '../assets/images/Profile-Picture.jpg';
+import FCongress from '../assets/images/Finding-Congress-pic.jpg';
+import GitHugged from '../assets/images/GitHugged-pic.jpg';
+import jirn from '../assets/images/JIRN-pic.jpg';
 
 class Home extends React.Component {
   constructor(props) {
@@ -49,6 +52,7 @@ class Home extends React.Component {
               <li>
                 <div class="inner-list">
                   <div class="image-wrap">
+                    <img src={FCongress}></img>
                   </div>
                   <div class="definitions-wrap">
                   </div>
