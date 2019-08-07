@@ -50,23 +50,23 @@ class Home extends React.Component {
           <div id="portfolio-list">
             <ul>
               <li>
-                <div class="inner-list">
-                  <div class="image-wrap">
+                <div className="inner-list">
+                  <div className="image-wrap">
                     <img src={FCongress}></img>
                   </div>
-                  <div class="definitions-wrap">
-                    <div class="date-wrap">
+                  <div className="definitions-wrap">
+                    <div className="date-wrap">
                       <p>January 22, 2018</p>
                     </div>
-                    <div class="title-holder">
+                    <div className="title-holder">
                       <h3>
                         <a href="/"></a>
                       </h3>
                     </div>
-                    <div class="definition">
+                    <div className="definition">
                       <p>If you are reading this, you probably plan to start a small business or a side hustle very soon. And you probably have ...</p>
                     </div>
-                    <div class="read-more">
+                    <div className="read-more">
                       <a href="/">
                         <span>Read More</span>
                       </a>
