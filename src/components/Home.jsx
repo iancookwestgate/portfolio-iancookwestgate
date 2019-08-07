@@ -55,6 +55,22 @@ class Home extends React.Component {
                     <img src={FCongress}></img>
                   </div>
                   <div class="definitions-wrap">
+                    <div class="date-wrap">
+                      <p>January 22, 2018</p>
+                    </div>
+                    <div class="title-holder">
+                      <h3>
+                        <a href="/"></a>
+                      </h3>
+                    </div>
+                    <div class="definition">
+                      <p>If you are reading this, you probably plan to start a small business or a side hustle very soon. And you probably have ...</p>
+                    </div>
+                    <div class="read-more">
+                      <a href="/">
+                        <span>Read More</span>
+                      </a>
+                    </div>
                   </div>
                 </div>
               </li>
