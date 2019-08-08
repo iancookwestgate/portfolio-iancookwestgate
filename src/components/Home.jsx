@@ -74,7 +74,62 @@ class Home extends React.Component {
                   </div>
                 </div>
               </li>
+              <li>
+                <div className="inner-list">
+                  <div className="image-wrap">
+                    <img src={GitHugged}></img>
+                  </div>
+                  <div className="definitions-wrap">
+                    <div className="date-wrap">
+                      <p>January 22, 2018</p>
+                    </div>
+                    <div className="title-holder">
+                      <h3>
+                        <a href="/"></a>
+                      </h3>
+                    </div>
+                    <div className="definition">
+                      <p>If you are reading this, you probably plan to start a small business or a side hustle very soon. And you probably have ...</p>
+                    </div>
+                    <div className="read-more">
+                      <a href="/">
+                        <span>Read More</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div id="third-piece" className="inner-list">
+                  <div className="image-wrap">
+                    <img src={jirn}></img>
+                  </div>
+                  <div className="definitions-wrap">
+                    <div className="date-wrap">
+                      <p>January 22, 2018</p>
+                    </div>
+                    <div className="title-holder">
+                      <h3>
+                        <a href="/"></a>
+                      </h3>
+                    </div>
+                    <div className="definition">
+                      <p>If you are reading this, you probably plan to start a small business or a side hustle very soon. And you probably have ...</p>
+                    </div>
+                    <div className="read-more">
+                      <a href="/">
+                        <span>Read More</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </li>
             </ul>
+          </div>
+        </div>
+        <div className="footer-section">
+          <div className="container">
+            <p>Copyright 2019. All Rights are Reserved.</p>
           </div>
         </div>
       </div>
