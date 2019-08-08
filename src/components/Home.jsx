@@ -127,49 +127,45 @@ class Home extends React.Component {
           </div>
         </div>
         <div className="contact">
-          <div className="container">
-            <div className="contact-title">
-              <h3>Contact Me</h3>
-            </div>
+          <div className="contact-title">
+            <h1>Contact Me</h1>
           </div>
           <div className="contact-wrapper-all">
             <div className="contact-wrapper">
-              <div className="container">
-                <div className="box-section">
-                  <div className="short-info">
-                    <ul>
-                      <li>
-                        <p>
-                          <label>Email:</label>
-                          <span>
-                            <a href="mailto:iancookwestgate@gmail.com">iancookwestgate@gmail.com</a>
-                          </span>
-                        </p>
-                      </li>
-                      <li>
-                        <p>
-                          <label>LinkedIn:</label>
-                          <span>
-                            <a href="https://www.linkedin.com/in/ian-cook-westgate/">linkedin.com/in/ian-cook-westgate/</a>
-                          </span>
-                        </p>
-                      </li>
-                      <li>
-                        <p>
-                          <label>Phone:</label>
-                          <span>(903)486-7790</span>
-                        </p>
-                      </li>
-                      <li>
-                        <p>
-                          <label>GitHub:</label>
-                          <span>
-                            <a href="https://github.com/iancookwestgate">iancookwestgate</a>
-                          </span>
-                        </p>
-                      </li>
-                    </ul>
-                  </div>
+              <div className="box-section">
+                <div className="short-info">
+                  <ul>
+                    <li>
+                      <p>
+                        <label>Email:</label>
+                        <span>
+                          <a href="mailto:iancookwestgate@gmail.com">iancookwestgate@gmail.com</a>
+                        </span>
+                      </p>
+                    </li>
+                    <li>
+                      <p>
+                        <label>LinkedIn:</label>
+                        <span>
+                          <a href="https://www.linkedin.com/in/ian-cook-westgate/">linkedin.com/in/ian-cook-westgate/</a>
+                        </span>
+                      </p>
+                    </li>
+                    <li>
+                      <p>
+                        <label>Phone:</label>
+                        <span>(903)486-7790</span>
+                      </p>
+                    </li>
+                    <li>
+                      <p>
+                        <label>GitHub:</label>
+                        <span>
+                          <a href="https://github.com/iancookwestgate">iancookwestgate</a>
+                        </span>
+                      </p>
+                    </li>
+                  </ul>
                 </div>
               </div>
             </div>

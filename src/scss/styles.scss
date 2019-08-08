@@ -184,6 +184,7 @@ p {
   }
   p {
     max-width: 400px;
+    margin-right: 25px;
   }
 }
 
@@ -364,5 +365,86 @@ p {
   box-sizing: border-box;
   p {
     color: #fff;
+  }
+}
+
+// Contact Section CSS
+
+.contact {
+  width: 100%;
+  height: auto;
+  clear: both;
+  float: left;
+  box-sizing: border-box;
+}
+
+.contact-title {
+  padding-bottom: 25px;
+  width: 100%;
+  height: auto;
+  clear: both;
+  float: left;
+  text-align: left;
+  position: relative;
+  box-sizing: border-box;
+  h1 {
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: -3px;
+    padding-left: 40px;
+    line-height: 1;
+    font-family: "Montserrat";
+  }
+  span {
+    font-size: 16px;
+    font-family: "Montserrat";
+    padding-left: 25px;
+  }
+}
+
+.contact-wrapper {
+  width: 100%;
+  height: auto;
+  clear: both;
+  float: left;
+  background-color: #fff;
+  box-sizing: border-box;
+}
+
+.box-section {
+  width: 100%;
+  margin-bottom: 20px;
+  height: auto;
+  float: left;
+  box-sizing: border-box;
+}
+
+.short-info {
+  width: 100%;
+  height: auto;
+  clear: both;
+  float: left;
+  box-sizing: border-box;
+  ul {
+    margin: 0px;
+    list-style-type: none;
+  }
+  li {
+    margin: 0px 0px 15px 0px;
+  }
+  label {
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 16px;
+    color: #000;
+  }
+  span {
+    padding-left: 5px;
+    color: #000;
+  }
+  a {
+    text-decoration: none;
+
   }
 }
