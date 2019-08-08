@@ -74,7 +74,7 @@ p {
 // Home SCSS
 
 #home {
-  margin-left: 300px;
+  margin-left: 298px;
   height: auto;
 }
 
@@ -197,6 +197,9 @@ p {
   img {
     max-width: 300px;
     padding-right: 40px;
+    @include mmQ(1030px) {
+      display: none;
+    }
   }
   p {
     max-width: 400px;
@@ -271,6 +274,7 @@ p {
     float: left;
     width: 50%;
     padding-left: 30px;
+    padding-right: 30px;
     box-sizing: border-box;
   }
 }
