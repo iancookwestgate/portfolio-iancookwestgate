@@ -2,17 +2,27 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import '../scss/styles.scss';
 
-function Navbar(){
-  return (
-    <div className="bg-nvy navbar">
-      <div id="internal-menu">
-        <Link to="/"><p>Home</p></Link>
-        <Link to="/"><p>About</p></Link>
-        <Link to="/"><p>Portfolio</p></Link>
-        <Link to="/"><p>Contact</p></Link>
+class Navbar extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+
+    };
+  }
+
+  render() {
+    return (
+      <div className="bg-nvy navbar">
+        <div id="internal-menu">
+          <Link to="/"><p>Home</p></Link>
+          <Link to="/"><p>About</p></Link>
+          <Link to="/"><p>Portfolio</p></Link>
+          <Link to="/"><p>Contact</p></Link>
+        </div>
       </div>
-    </div>
-  );
+    );
+  }
+
 }
 
 export default Navbar;
