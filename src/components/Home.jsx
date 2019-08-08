@@ -21,11 +21,18 @@ class Home extends React.Component {
           <div id="header-wrap">
             <div id="box-wrap">
               <div id="bg-wrap">
+                <div className="darken-overlay">
+                </div>
               </div>
               <div id="content">
                 <div id="inner-content">
                   <div id="image-wrap">
                     <img src={profile} alt="A picture of Ian Cook Westgate"></img>
+                  </div>
+                  <div id="name-holder">
+                    <h3>
+                      Ian Cook Westgate
+                    </h3>
                   </div>
                 </div>
               </div>
