@@ -51,11 +51,13 @@ class Home extends React.Component {
               <li>
                 <div className="inner-list">
                   <div className="image-wrap">
-                    <img src={FCongress}></img>
+                    <a href="https://github.com/iancookwestgate/Finding-Congress">
+                      <img src={FCongress}></img>
+                    </a>
                   </div>
                   <div className="definitions-wrap">
                     <div className="date-wrap">
-                      <p>January 22, 2018</p>
+                      <p><em>Finding Congress</em> - August 1, 2019</p>
                     </div>
                     <div className="title-holder">
                       <h3>
@@ -63,11 +65,11 @@ class Home extends React.Component {
                       </h3>
                     </div>
                     <div className="definition">
-                      <p>If you are reading this, you probably plan to start a small business or a side hustle very soon. And you probably have ...</p>
+                      <p>Uses the ProPublica Congress API & News API within a minimalist website that permits the user to seek curated news based on a state's congressmen, women, and a political issue of their choice.</p>
                     </div>
                     <div className="read-more">
-                      <a href="/">
-                        <span>Read More</span>
+                      <a href="https://github.com/iancookwestgate/Finding-Congress">
+                        <span>Project Details</span>
                       </a>
                     </div>
                   </div>
@@ -76,11 +78,13 @@ class Home extends React.Component {
               <li>
                 <div className="inner-list">
                   <div className="image-wrap">
-                    <img src={GitHugged}></img>
+                    <a href="https://github.com/iancookwestgate/GitHugged">
+                      <img src={GitHugged}></img>
+                    </a>
                   </div>
                   <div className="definitions-wrap">
                     <div className="date-wrap">
-                      <p>January 22, 2018</p>
+                      <p><em>GitHugged</em> - May 9, 2019</p>
                     </div>
                     <div className="title-holder">
                       <h3>
@@ -88,11 +92,11 @@ class Home extends React.Component {
                       </h3>
                     </div>
                     <div className="definition">
-                      <p>If you are reading this, you probably plan to start a small business or a side hustle very soon. And you probably have ...</p>
+                      <p>I helped program this team project featuring a website that allows the user to write blog posts about their GitHub repositories. Access to GitHub's API makes it all possible.</p>
                     </div>
                     <div className="read-more">
-                      <a href="/">
-                        <span>Read More</span>
+                      <a href="https://github.com/iancookwestgate/GitHugged">
+                        <span>Project Details</span>
                       </a>
                     </div>
                   </div>
@@ -101,11 +105,13 @@ class Home extends React.Component {
               <li>
                 <div id="third-piece" className="inner-list">
                   <div className="image-wrap">
-                    <img src={jirn}></img>
+                    <a href="https://github.com/iancookwestgate/JIRN">
+                      <img src={jirn}></img>
+                    </a>
                   </div>
                   <div className="definitions-wrap">
                     <div className="date-wrap">
-                      <p>January 22, 2018</p>
+                      <p><em>JIRN.com</em> - February 7, 2019</p>
                     </div>
                     <div className="title-holder">
                       <h3>
@@ -113,11 +119,11 @@ class Home extends React.Component {
                       </h3>
                     </div>
                     <div className="definition">
-                      <p>If you are reading this, you probably plan to start a small business or a side hustle very soon. And you probably have ...</p>
+                      <p>I assisted programming this website for easily giving a user access to a prepared list of restaurants & their information throughout the Portland area.</p>
                     </div>
                     <div className="read-more">
-                      <a href="/">
-                        <span>Read More</span>
+                      <a href="https://github.com/iancookwestgate/JIRN">
+                        <span>Project Details</span>
                       </a>
                     </div>
                   </div>

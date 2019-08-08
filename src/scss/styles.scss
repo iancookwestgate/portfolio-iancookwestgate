@@ -285,6 +285,7 @@ p {
 
 .date-wrap {
   margin-bottom: 10px;
+  text-align: left;
   p {
     color: #333;
     font-family: "Montserrat";
@@ -313,12 +314,14 @@ p {
 
 .definition {
   margin-bottom: 26px;
+  text-align: left;
   p {
     color: #333;
   }
 }
 
 .read-more {
+  text-align: left;
   a {
     text-decoration: none;
     color: #fff;
@@ -339,7 +342,7 @@ p {
 }
 
 #third-piece {
-  margin-top: -10vh;
+  margin-top: -6vh;
 }
 
 .footer-section {
