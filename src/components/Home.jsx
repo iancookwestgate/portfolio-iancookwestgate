@@ -45,7 +45,7 @@ class Home extends React.Component {
         <div id="portfolio-wrap">
           <div id="portfolio">
             <h1>Portfolio Pieces</h1>
-            <span>Take a look at my work below.</span>
+            <span>Check out my latest projects.</span>
           </div>
           <div id="portfolio-list">
             <ul>
