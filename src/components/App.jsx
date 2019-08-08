@@ -1,5 +1,4 @@
 import React from 'react';
-import Navbar from './Navbar';
 import Home from './Home';
 import { Switch, Route } from 'react-router-dom';
 import Error404 from './Error404';
@@ -15,7 +14,6 @@ class App extends React.Component {
   render() {
     return (
       <div>
-        <Navbar/>
         <Switch>
           <Route exact path='/' component={Home} />
           <Route component={Error404}/>
