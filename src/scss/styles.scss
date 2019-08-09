@@ -20,6 +20,9 @@ p {
   left: 0px;
   z-index: 100;
   transition: all .3s ease;
+  @include mmQ(630px) {
+    display: none;
+  }
 }
 
 #internal-menu {
@@ -76,6 +79,9 @@ p {
 #home {
   margin-left: 298px;
   height: auto;
+  @include mmQ(630px) {
+    margin-left: 0px;
+  }
 }
 
 #top-section {
@@ -276,6 +282,9 @@ p {
     padding-left: 30px;
     padding-right: 30px;
     box-sizing: border-box;
+    @include mmQ(900px) {
+      width: 100%;
+    }
   }
 }
 
@@ -362,7 +371,10 @@ p {
 }
 
 #third-piece {
-  margin-top: -6vh;
+  margin-top: -3vh;
+  @include mmQ(900px) {
+    margin-top: 0;
+  }
 }
 
 .footer-section {
