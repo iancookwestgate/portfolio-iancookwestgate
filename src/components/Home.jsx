@@ -12,18 +12,23 @@ class Home extends React.Component {
     this.state = {
 
     };
+    this.homeClick = this.homeClick.bind(this);
+
+  }
+
+  homeclick() {
+
   }
 
   render() {
     return (
       <div>
-
         <div className="bg-nvy navbar">
           <div id="internal-menu">
-            <a href="#"><p>Home</p></a>
-            <a href="#"><p>About</p></a>
-            <a href="#"><p>Portfolio</p></a>
-            <a href="#"><p>Contact</p></a>
+            <p>Home</p>
+            <p>About</p>
+            <p>Portfolio</p>
+            <p>Contact</p>
           </div>
         </div>
         <div id="home">
