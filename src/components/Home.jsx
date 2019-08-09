@@ -12,12 +12,38 @@ class Home extends React.Component {
     this.state = {
 
     };
+    this.homeDivToFocus = React.createRef();
+    this.aboutDivToFocus = React.createRef();
+    this.portfolioDivToFocus = React.createRef();
+    this.contactDivToFocus = React.createRef();
     this.homeClick = this.homeClick.bind(this);
-
+    this.aboutClick = this.aboutClick.bind(this);
+    this.portfolioClick = this.portfolioClick.bind(this);
+    this.contactClick = this.contactClick.bind(this);
   }
 
   homeClick() {
-    console.log("Hello!");
+    this.homeDivToFocus.current.scrollIntoView({
+      behavior: "smooth"
+    });
+  }
+
+  aboutClick() {
+    this.aboutDivToFocus.current.scrollIntoView({
+      behavior: "smooth"
+    });
+  }
+
+  portfolioClick() {
+    this.portfolioDivToFocus.current.scrollIntoView({
+      behavior: "smooth"
+    });
+  }
+
+  contactClick() {
+    this.contactDivToFocus.current.scrollIntoView({
+      behavior: "smooth"
+    });
   }
 
   render() {
@@ -26,12 +52,12 @@ class Home extends React.Component {
         <div className="bg-nvy navbar">
           <div id="internal-menu">
             <p onClick={this.homeClick}>Home</p>
-            <p>About</p>
-            <p>Portfolio</p>
-            <p>Contact</p>
+            <p onClick={this.aboutClick}>About</p>
+            <p onClick={this.portfolioClick}>Portfolio</p>
+            <p onClick={this.contactClick}>Contact</p>
           </div>
         </div>
-        <div id="home">
+        <div ref={this.homeDivToFocus} id="home">
           <div id="top-section">
             <div id="header-wrap">
               <div id="box-wrap">
@@ -54,17 +80,17 @@ class Home extends React.Component {
               </div>
             </div>
           </div>
-          <div id="about-me">
+          <div ref={this.aboutDivToFocus} id="about-me">
             <h1>About Me</h1>
             <div id="about-content">
               <div id="about-text-section">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p>I found my passion for coding while traveling the world. As I trekked through up and coming tech cities like Tallinn, Budapest, and Ho Chi Minh City, I worked through programming courses online. When I returned to America, I promptly enrolled with Epicodus in the Front End Development track. Ever since, I'm fascinated with what I can create online and I've been challenging myself to try new programs & plugins every day. I can't wait to meet and learn from everyone I can in this burgeoning industry.</p>
                 <a href="https://docs.google.com/document/d/1GayiA_ACx7_AcshfhKQMUI0baChg7VatB6G-g12ISLc/edit?usp=sharing">View CV</a>
               </div>
               <img src={aboutPic}></img>
             </div>
           </div>
-          <div id="portfolio-wrap">
+          <div ref={this.portfolioDivToFocus} id="portfolio-wrap">
             <div id="portfolio">
               <h1>Portfolio Pieces</h1>
             </div>
@@ -154,7 +180,7 @@ class Home extends React.Component {
               </ul>
             </div>
           </div>
-          <div className="contact">
+          <div ref={this.contactDivToFocus} className="contact">
             <div className="contact-title">
               <h1>Contact Me</h1>
             </div>

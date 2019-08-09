@@ -28,9 +28,9 @@
     "css-loader": "^2.1.1",
     "moment": "^2.18.1",
     "prop-types": "^15.7.2",
-    "react": "^15.5.4",
-    "react-dom": "^15.5.4",
-    "react-router-dom": "^4.0.0",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-router-dom": "^5.0.1",
     "style-loader": "^0.23.1",
     "styled-jsx": "^3.2.1",
     "uuid": "^3.2.1"
