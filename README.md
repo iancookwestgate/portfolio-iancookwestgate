@@ -1,10 +1,10 @@
-# Portfolio
+# Ian's Web Dev Portfolio
 
 #### By **Ian Cook Westgate**
 
 ## Description
 
-This is the portfolio for Ian Cook Westgate. This site was designed to illustrate Ian's web developer and designer skills, his portfolio pieces, and information on how to contact him. 
+This is the portfolio for Ian Cook Westgate. This site was designed to illustrate Ian's web developer and designer skills, his portfolio pieces, and information on how to contact him.
 
 ## Component Structure
 
