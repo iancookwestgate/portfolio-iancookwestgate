@@ -16,8 +16,8 @@ class Home extends React.Component {
 
   }
 
-  homeclick() {
-
+  homeClick() {
+    console.log("Hello!");
   }
 
   render() {
@@ -25,7 +25,7 @@ class Home extends React.Component {
       <div>
         <div className="bg-nvy navbar">
           <div id="internal-menu">
-            <p>Home</p>
+            <p onClick={this.homeClick}>Home</p>
             <p>About</p>
             <p>Portfolio</p>
             <p>Contact</p>
